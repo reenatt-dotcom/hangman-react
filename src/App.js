@@ -4,6 +4,7 @@ import AttemptsDisplay from './AttemptsDisplay';
 import InputForm from './InputForm';
 import HangmanCanvas from './HangmanCanvas';
 import MessageDisplay from './MessageDisplay';
+import './App.css'
 
 const App = () => {
   const [secretWord, setSecretWord] = useState('hangman'); // The secret word to be guessed
